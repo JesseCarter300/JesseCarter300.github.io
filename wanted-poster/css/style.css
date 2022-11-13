@@ -100,6 +100,7 @@ h4 {
     padding-bottom:1.125rem;
     text-align:center;
     text-transform: uppercase;
+    border:1px solid #333;
 }
 
 h4 span {
