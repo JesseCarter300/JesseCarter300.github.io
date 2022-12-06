@@ -126,6 +126,7 @@ figcaption {
 nav {
     float: left;
     width:11.25rem;
+    position: fixed; 
 }
 
 footer {
