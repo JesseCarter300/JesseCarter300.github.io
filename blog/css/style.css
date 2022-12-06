@@ -80,8 +80,14 @@ body {
       flex-direction: column-reverse;
     }
     .photos {
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-      gap: 10px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      /*My Code*/
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 1px;
+    }
     }
     .feature {
       float: none;
