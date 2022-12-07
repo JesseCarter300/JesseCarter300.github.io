@@ -1,4 +1,8 @@
 body {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rots: auto auto 1fr auto
+  min-height: 100vh
   background-color: #fff;
   color: #333;
   margin: 0;
