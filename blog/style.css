@@ -1,43 +1,48 @@
 /* Add this CSS to your existing style.css or create a new CSS file and link it in your HTML */
 
-/* Style for the sidebar navigation */
-.sidebar {
+/* Style for the navigation bar */
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 200px; /* Adjust the width as needed */
-    height: 100%;
+    width: 100%;
     background-color: #f0f0f0; /* Change the background color as needed */
     padding: 20px;
-    overflow-y: auto; /* Enable scrolling for long lists */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+    z-index: 1000; /* Ensure the navigation bar appears above other content */
 }
 
-.sidebar img {
+.navbar img {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
 
-.sidebar ul {
+.navbar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.sidebar ul li {
-    margin-bottom: 10px;
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
-.sidebar ul li a {
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
     text-decoration: none;
     color: #333; /* Adjust the color as needed */
 }
 
-.sidebar ul li a:hover {
+.navbar ul li a:hover {
     color: #007bff; /* Adjust the hover color as needed */
 }
 
 /* Style for the main content area */
-.content {
-    margin-left: 220px; /* Adjust the margin to accommodate the sidebar width */
+main {
+    margin-top: 80px; /* Adjust the margin to accommodate the height of the navigation bar */
 }
