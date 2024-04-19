@@ -13,13 +13,60 @@
             top: 0;
             left: 0;
             width: 100%;
-            background-color: #fff; /* Optionally, change the background color */
+            background-color: #333; /* Dark background color */
+            padding: 10px 0; /* Adjust padding */
             z-index: 1000; /* Optionally, adjust the z-index if needed */
+        }
+
+        nav img {
+            display: block;
+            margin: 0 auto; /* Center the image */
+            width: 100px; /* Adjust width as needed */
+            border-radius: 50%; /* Round the image */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center; /* Center the navigation links */
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff; /* White color for links */
+            text-decoration: none;
+            font-size: 18px; /* Adjust font size */
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        nav p {
+            color: #fff; /* White color for text */
+            font-size: 14px; /* Adjust font size */
+            text-align: center; /* Center the text */
+            margin-top: 10px; /* Adjust spacing */
+        }
+
+        nav p a {
+            color: #fff; /* White color for links */
+            text-decoration: none;
+        }
+
+        nav p a:hover {
+            text-decoration: underline; /* Underline on hover */
         }
 
         /* Adjust the main content area to prevent it from being overlapped by the fixed nav bar */
         body {
-            padding-top: 60px; /* Adjust this value according to the height of your navigation bar */
+            padding-top: 100px; /* Adjust this value according to the height of your navigation bar */
+            margin: 0; /* Reset default margin */
         }
     </style>
 </head>
@@ -81,3 +128,4 @@
 <article>
     <h2>work ethic</h2>
     <p>Live-edge direct trade kickstarter
+    </p>
