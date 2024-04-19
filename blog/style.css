@@ -37,9 +37,14 @@ aside {
 }
 
 .photos img {
-    width: 100%;
-    margin-bottom: 10px;
+/* CSS Styles */
+.photos img {
+    width: 100%; /* Adjust the width of the images */
+    max-height: 300px; /* Set a maximum height for the images */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover their container */
+    margin-bottom: 10px; /* Adjust spacing between images */
 }
+
 
 footer {
     background-color: #333;
